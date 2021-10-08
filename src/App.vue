@@ -108,9 +108,9 @@ export default {
 
         wind() {
             if (this.data.data) {
-                return (this.data.data.wind.speed);
+                return ((this.data.data.wind.speed)*3.6).toFixed(2);
             }
-            return "5.54";
+            return "19.54";
         },
 
         time() {
