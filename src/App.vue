@@ -176,7 +176,8 @@ export default {
 .container {
     width: 350px;
     height: 650px;
-    background: #4db0d1;
+    background: rgb(254,219,101);
+    background: linear-gradient(360deg, rgba(254,219,101,1) 0%, rgba(214,99,134,1) 100%);
     border-radius: 15px;
 }
 .time {
